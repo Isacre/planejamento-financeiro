@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SideBar from "../../components/SideBar";
+import PannelTitleAndSearch from "../../components/PannelTitleAndSearch";
 
 const Component = styled.div`
   display: flex;
@@ -8,11 +8,10 @@ const Component = styled.div`
   background-color: #fcfbfc;
 `;
 
-export default function Dashboard() {
+export default function UserAnalytics() {
   return (
     <Component>
-      <SideBar />
-      <div>aaaa</div>
+      <PannelTitleAndSearch title="Gráficos" />
     </Component>
   );
 }

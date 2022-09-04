@@ -1,8 +1,8 @@
 import { menus } from "./menus";
+import { TbSettings } from "react-icons/tb";
 import Logo from "../../assets/Logo";
 import Menu from "./Menu";
 import * as S from "./styles";
-import { TbSettings } from "react-icons/tb";
 
 export default function SideBar() {
   return (

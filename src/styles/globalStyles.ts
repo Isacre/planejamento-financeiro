@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 import Lato from '../assets/Lato-Regular.ttf';
 
+
 const GlobalStyle = createGlobalStyle`
 
 @font-face {
@@ -8,39 +9,27 @@ const GlobalStyle = createGlobalStyle`
     src: url(${Lato});
 }
 
+
+
 :root {
-  --color-pink: #ff007f;
+  --color-main: #ff007f;
+  --color-background: #f9f9f9;
+  --font-lato: Lato;
+  --dropshadow-pink: drop-shadow(1px 1px 0px rgba(255, 0, 127, 0.5));
+  --fontsize-title: 25px;
+  --fontsize-subtitle: 20px;
+  --fontsize-text: 16px;
+
 }
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:Lato;
+    font-family: 'Inter', 'sans-serif';
+    background-color: transparent;
 
-    /* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-  
-}
-    
-    
    
+
 
     a{ 
         text-decoration: none;

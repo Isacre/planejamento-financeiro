@@ -18,14 +18,14 @@ const NavbarItem = styled.div`
 
   ::before {
     content: "";
-    background-color: var(--color-pink);
+    background-color: var(--color-main);
     width: ${(props) => (props.className === "selected" ? "4px" : "0px")};
     transition: all 200ms ease-in-out;
     height: 40px;
   }
 
   svg {
-    fill: ${(props) => (props.className === "selected" ? "var(--color-pink)" : "#00000")};
+    fill: ${(props) => (props.className === "selected" ? "var(--color-main)" : "#00000")};
     transition: all 50ms ease-in-out;
   }
 `;

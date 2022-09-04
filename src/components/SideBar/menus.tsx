@@ -4,7 +4,7 @@ import { TbBrandGoogleAnalytics, TbUser, TbHome, TbReportMoney } from "react-ico
 export const menus: SidebarMenu[] = [
   {
     icon: TbHome,
-    route: "/",
+    route: "/home",
   },
   {
     icon: TbUser,
